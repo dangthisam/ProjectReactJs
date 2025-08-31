@@ -1,9 +1,11 @@
-function Content() {
+
+function Content(props) {
+  console.log(props);
     return (
       <>
-        <div className="box">
+        <div className={"box" + (props.active ? "box--active" : "")}>
           <main>
-            <h1>Content</h1>
+            <h1>{props.text}</h1>
         </main>
         </div>
       </>

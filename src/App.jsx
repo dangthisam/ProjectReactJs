@@ -15,9 +15,9 @@ function App(){
       <NavigationMenu />
 
    <div className="main">
-       <Content />
+       <Content   text="Nội dung 1"  number={1} active={true}/>
       <MainContent />
-      <Content />
+      <Content   text="Nội dung 2" number={2} active={false}/>
    </div>
       <Footer />
     </>
