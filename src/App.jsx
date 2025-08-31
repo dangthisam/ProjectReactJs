@@ -10,6 +10,7 @@ import ProductItem from "./component/ProductsLIst/index.jsx";
 import Country from "./component/Country/index.jsx";
 import Lamp from "./component/Lamp/index.jsx";
 import Cart from "./component/Cart/index.jsx";
+import Modal from "./component/Modal/index.jsx";
 function App(){ 
  
   return (
@@ -19,7 +20,9 @@ function App(){
      {/* // <ProductItem /> */}
      {/* <Country /> */}
      {/* <Lamp /> */}
-<Cart />
+     {/* <Cart /> */}
+     <Modal />
+
     </>
   )
 }
