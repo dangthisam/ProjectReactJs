@@ -8,6 +8,8 @@ import Content from "./component/Content/index.jsx";
 import Menu from "./component/Menu/index.jsx";
 import ProductItem from "./component/ProductsLIst/index.jsx";
 import Country from "./component/Country/index.jsx";
+import Lamp from "./component/Lamp/index.jsx";
+import Cart from "./component/Cart/index.jsx";
 function App(){ 
  
   return (
@@ -15,8 +17,9 @@ function App(){
     <>
 
      {/* // <ProductItem /> */}
-     <Country />
-
+     {/* <Country /> */}
+     {/* <Lamp /> */}
+<Cart />
     </>
   )
 }
