@@ -5,21 +5,18 @@ import Footer from "./component/Footer/index.jsx"
 import NavigationMenu from "./component/NavigationMenu/index.jsx";
 import MainContent from "./component/MainContent/index.jsx";
 import Content from "./component/Content/index.jsx";
+import Menu from "./component/Menu/index.jsx";
+import ProductItem from "./component/ProductsLIst/index.jsx";
+import Country from "./component/Country/index.jsx";
 function App(){ 
  
   return (
     // cú pháp flagmetn <></>
     <>
-      <Header />
 
-      <NavigationMenu />
+     {/* // <ProductItem /> */}
+     <Country />
 
-   <div className="main">
-       <Content   text="Nội dung 1"  number={1} active={true}/>
-      <MainContent />
-      <Content   text="Nội dung 2" number={2} active={false}/>
-   </div>
-      <Footer />
     </>
   )
 }
