@@ -1,0 +1,15 @@
+.tabs{
+ 
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 10px;
+
+
+    &__item{
+        margin: 10px;
+    }
+}

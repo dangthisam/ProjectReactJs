@@ -13,6 +13,8 @@ import Cart from "./component/Cart/index.jsx";
 import Modal from "./component/Modal/index.jsx";
 import UseEffect1 from "./component/useEffect1/index.jsx"
 import UseEffect2 from "./component/UseEffect2/index.jsx";
+
+import Tabs from "./component/Tabs/index.jsx";
 function App(){ 
  
   return (
@@ -24,8 +26,8 @@ function App(){
      {/* <Lamp /> */}
      {/* <Cart /> */}
      {/* <Modal /> */}
-     <UseEffect2 />
-
+     {/* <UseEffect2 /> */}
+      <Tabs />
     </>
   )
 }
