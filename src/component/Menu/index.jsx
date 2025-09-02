@@ -1,5 +1,9 @@
+
+import {TabContext} from "../context/TabContext"
+import { useContext } from "react";
 function Menu() {
-  const menu = ["Trang chu", "Chi tiet"];
+  const menu = useContext(TabContext);
+  console.log(menu)
   return (
     <div className="box">
       <nav>
